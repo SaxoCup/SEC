@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
 
+/*flip-flop do tipo D com Enable flanco ascendente*/
+
 module register (
   input		    clk,
   input             en,

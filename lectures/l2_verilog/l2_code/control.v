@@ -3,6 +3,8 @@
 //compute p**q, where q=4
 
 
+/* flip flop do tipo D com reset ativo no flanco ascendente*/
+
 module control (
 		//top interface
 	input 	    clk,
@@ -33,11 +35,11 @@ module control (
    always @* begin
       //defaults 
       
-      state_nxt = state;
+      state_nxt = state; /* Atualização do estado */
 
       case (state)
 	1'b0: //Init
-	  if(data_in_valid) 
+	  if(data_in_valid) /* Entrada só é registada quando dat_in_valid = 1 */
 	    state_nxt = 1'b1;
 	default:;//Accumulate
       endcase    
@@ -45,10 +47,10 @@ module control (
    
    //counter management
    assign cnt_rst = data_in_valid;
-   assign cnt_en = (state != 1'b0);
+   assign cnt_en = (state != 1'b0); /* O enable está ativo se o state for diferente de 0 */
 
    //register management
-   assign reg_en = data_in_valid | (cnt_data < 2'd3);
+   assign reg_en = data_in_valid | (cnt_data < 2'd3); /* reg_en ativo se data_in_valid = 1 ou cnt_data não estiver cheio */
    
 
 endmodule
