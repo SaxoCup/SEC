@@ -1,0 +1,29 @@
+$date
+	Thu Oct 10 13:30:38 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder_tb $end
+$var wire 8 ! data_out [7:0] $end
+$var reg 8 " data_in1 [7:0] $end
+$var reg 8 # data_in2 [7:0] $end
+$scope module uut $end
+$var wire 8 $ data_in1 [7:0] $end
+$var wire 8 % data_in2 [7:0] $end
+$var wire 8 & data_out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 &
+b101 %
+b11 $
+b101 #
+b11 "
+b1000 !
+$end
