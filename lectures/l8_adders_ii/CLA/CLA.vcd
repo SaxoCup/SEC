@@ -1,0 +1,156 @@
+$date
+	Wed Oct 16 16:06:50 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module CLA_tb $end
+$var wire 1 ! c_o $end
+$var wire 4 " Sum [3:0] $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % c_i $end
+$scope module uut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 % c_i $end
+$var wire 1 ! c_o $end
+$var wire 2 ( p3_2 [1:0] $end
+$var wire 2 ) p1_0 [1:0] $end
+$var wire 2 * g3_2 [1:0] $end
+$var wire 2 + g1_0 [1:0] $end
+$var wire 3 , c [2:0] $end
+$var wire 4 - Sum [3:0] $end
+$var wire 1 . P3_0 $end
+$var wire 2 / P [1:0] $end
+$var wire 1 0 G3_0 $end
+$var wire 2 1 G [1:0] $end
+$scope module a_0 $end
+$var wire 1 2 A $end
+$var wire 1 3 B $end
+$var wire 1 4 Sum $end
+$var wire 1 % c_i $end
+$var wire 1 5 g $end
+$var wire 1 6 p $end
+$upscope $end
+$scope module a_1 $end
+$var wire 1 7 A $end
+$var wire 1 8 B $end
+$var wire 1 9 Sum $end
+$var wire 1 : c_i $end
+$var wire 1 ; g $end
+$var wire 1 < p $end
+$upscope $end
+$scope module a_2 $end
+$var wire 1 = A $end
+$var wire 1 > B $end
+$var wire 1 ? Sum $end
+$var wire 1 @ c_i $end
+$var wire 1 A g $end
+$var wire 1 B p $end
+$upscope $end
+$scope module a_3 $end
+$var wire 1 C A $end
+$var wire 1 D B $end
+$var wire 1 E Sum $end
+$var wire 1 F c_i $end
+$var wire 1 G g $end
+$var wire 1 H p $end
+$upscope $end
+$scope module c0 $end
+$var wire 1 % c_i $end
+$var wire 2 I g [1:0] $end
+$var wire 2 J p [1:0] $end
+$var wire 1 K c_o $end
+$var wire 1 . P $end
+$var wire 1 0 G $end
+$scope module gp_0 $end
+$var wire 1 0 G $end
+$var wire 1 . P $end
+$var wire 1 % c_i $end
+$var wire 1 K c_o $end
+$var wire 2 L g [1:0] $end
+$var wire 2 M p [1:0] $end
+$upscope $end
+$upscope $end
+$scope module gp_0 $end
+$var wire 1 N G $end
+$var wire 1 O P $end
+$var wire 1 % c_i $end
+$var wire 1 P c_o $end
+$var wire 2 Q g [1:0] $end
+$var wire 2 R p [1:0] $end
+$upscope $end
+$scope module gp_1 $end
+$var wire 1 S G $end
+$var wire 1 T P $end
+$var wire 1 U c_i $end
+$var wire 1 V c_o $end
+$var wire 2 W g [1:0] $end
+$var wire 2 X p [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 X
+b0 W
+0V
+1U
+0T
+0S
+b0 R
+b11 Q
+1P
+0O
+1N
+b0 M
+b1 L
+1K
+b0 J
+b1 I
+1H
+0G
+0F
+1E
+0D
+1C
+0B
+0A
+1@
+1?
+0>
+0=
+0<
+1;
+1:
+19
+18
+17
+06
+15
+14
+13
+12
+b1 1
+00
+b0 /
+0.
+b1111 -
+b11 ,
+b11 +
+b0 *
+b0 )
+b10 (
+b11 '
+b1011 &
+1%
+b11 $
+b1011 #
+b1111 "
+0!
+$end
