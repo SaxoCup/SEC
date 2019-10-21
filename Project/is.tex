@@ -1,0 +1,22 @@
+\section{Interface Signals}
+\label{sec:is}
+
+The interface signals of the sequencer controller peripherals Table~\ref{tab:Interface signals}..
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[!htbp]
+    \centering
+    \caption{Interface Signals}
+    \label{tab:Interface signals}
+    \begin{tabular}{@{}lccll@{}}
+    \toprule
+    Name     & \multicolumn{1}{l}{\#bits} & \multicolumn{1}{l}{Direction} & Peripheral                & Description    \\ \midrule
+    clk      & 1                          & IN                            & FPGA clock                & Clock Signal   \\
+    led\_out & 8                          & OUT                           & LED driver                & Reset Signal   \\
+    sw\_in   & 4                          & IN                            & Push-button driver        & Push Buttons   \\
+    kbd\_in  & 8                          & IN                            & Switch driver             & Slide Switches \\
+    snd\_out & 1                          & OUT                           & Sequencer loop controller & Sound output   \\ \bottomrule
+    \end{tabular}
+    \end{table}
+
