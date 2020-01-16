@@ -1,0 +1,7 @@
+Cd = 400fF , Cc = 20fF , vdd = 1.8V , deltaV = 80 mV , ts = 5ps , R = incognita
+
+C_serie = (Cd*Cc) / (Cd+Cc) = 19fF , V_inf = ( (cd-cc)/(cd+cc) ) * (vdd/2) = 0.8V
+
+ts = R * C_serie * ln ( (vdd/2-V_inf) / (vdd/2-deltaV-V_inf)) -> R ≅ 164Ω
+
+

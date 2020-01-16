@@ -1,0 +1,5 @@
+8MB/1B = 8M celulas = 2³ * 2²⁰ = 2²³ -> 23 para endereçamento
+
+linhas -> 12b -> array em B = 2¹⁰ * 2² * 2³ = 4kB
+
+colunas -> 11b -> array em B = 2¹⁰ * 2¹ * 2³ = 2kB

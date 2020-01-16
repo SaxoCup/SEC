@@ -1,0 +1,14 @@
+numero de address bits = log2(512MB) = 29
+
+indice de bits = cache size / line size / n ways = 8KB / 32B / 2 -> 7b
+
+offset bits = log2(32B/4B) = 3b
+
+sel bits = 32b word -> 32b/8b = 4 -> 2b
+
+17      7        3      2    --> 29b total
+
+tag ; index ; offset ; sel
+
+                   
+

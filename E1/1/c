@@ -1,0 +1,9 @@
+Tamanho chip = 2¹⁰ = 1kB 
+
+A cada chip correspondem 8b
+
+por linha temos 4 chips
+
+para 16kB, 32b RAM temos:
+
+total[16kB] / tamanho numa linha[4kb] -> 4 linhas com 4 chips cada, matriz quadrada de 4x4

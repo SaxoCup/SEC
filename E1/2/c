@@ -1,0 +1,6 @@
+linhas = 2¹²
+
+tempo refresh = #linhas x t_acesso_linha = 2¹² x 50ps = 204nS
+
+refresh overhead % = 204nS / 80us * 100 = 0.255 %
+

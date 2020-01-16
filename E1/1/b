@@ -1,0 +1,15 @@
+memory size = 32kB
+
+word size = 1B
+
+number of words = 32kB/1B = 32k (uma palavra por linha)
+
+chip specs:
+
+memory size = 2^10 = 1KB; data = 1B 
+
+cada chip tem output de 1B -> logo são usados 32 IC
+
+para endereçar uma palavra de um determinado chip são necessários 10 bits [9:0]
+
+para endereçar os 32 chips são precisos 5 bits -> [4:0]
